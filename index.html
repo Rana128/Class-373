@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Style Table | Assignment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+
+
+    <!-- internal CSS -->
+
+    <style>
+        .table-data{
+            font-size: 25px;
+            color: #cafc12;
+            background-color: black;
+
+        }
+        .bold-tag {
+            background-color: #273c75;
+            color: #fff;
+        }
+        .col-1 {
+            background-color: #4cd137;
+            color: #fff;
+        }
+        .bold {
+            background-color: #2f3640;
+            color: #ffffff;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    
+
+         <!-- inline CSS
+         internal CSS 
+         external CSS -->
+
+
+    <!-- table start -->
+    <table border="1" cellspacing="0">
+        <tr class="table">
+            <th>No</th>
+            <th>Tag</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <!-- heading-tag start -->
+        <!----------------- external CSS ---------------------------->
+        <tr class="heading-tag">
+            <td class="num">01</td>
+            <td class="heading-td">This is heading tag</td>
+            <td class="heading-all"> This is heading all tag</td>
+            <td><h1 class="heading-1">This is heading 1</h1>
+                <h2 class="heading-2">This is heading 2</h2>
+                <h3 class="heading-3">this is heading 3</h3>
+                <h4 class="heading-4">This is heading 4</h4>
+                <h5 class="heading-5">this is heading 5</h5>
+                <h6 class="heading-6">this is heading 6</h6></td>
+        </tr>
+        <!-- heading-tag end -->
+
+        <!-- paragraph-tag start -->
+        <!----------------inline CSS------------------>
+            <tr style="background-color: blueviolet; color: #fff;">
+                <td style="font-size: 25px;">02</td>
+                <td>p tag</td>
+                <td>This is paragraph tag </td>
+                <td> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Placeat modi veniam obcaecati minus unde illo, ex error iusto doloribus. Quisquam illo magni eaque consequuntur animi <br>  suscipit dignissimos tempora quas molestiae!</p>
+                </td>
+            </tr>
+        <!-- paragraph-tag end -->
+
+            <!-- b tag start -->
+
+            <!-- internal CSS  -->
+            <tr>
+                <td class="table-data">03</td>
+                <td class="bold-tag">b tag</td>
+                <td class="col-1">This is bold</td>
+                <td class="bold">
+                    <b>Quisquam illo magni eaque consequuntur animi </b>
+                </td>
+            </tr>
+            <!-- b tag end  -->
+            
+        <tr class="content">
+            <td class="col-2">04</td>
+            <td>img tag</td>
+            <td>tag is used to embed video content in a document,</td>
+            <td>
+                <img src="img/post-08.jpg" alt="Photo" width="200px;">
+            </td>
+        </tr>
+        <tr class="tr">
+            <td class="col-3">05</td>
+            <td>i tag</td>
+            <td>this is italic tag</td>
+            <td class="col-4"> <i>this is italic tag</i>  </td>
+        </tr>
+        <tr class="col-66">
+            <td class="col-6">06</td>
+            <td>video tag</td>
+            <td>tag is used to embed video content in a document,</td>
+            <td>
+                <video controls width="200px;" src="video/1.mp4"></video>
+            </td>
+      </tr>
+      <tr class="col-7">
+          <td class="col-77">07</td>
+          <td>audio tag</td>
+          <td> tag is used to embed sound content in a document,</td>
+          <td>
+              <audio controls src="audio/audio.mp3"></audio>
+          </td>
+      </tr>
+      <tr class="col-8">
+          <td class="col-88">08</td>
+          <td>a tag</td>
+          <td>tag defines a hyperlink,</td>
+          <td class="link"><a href="https://www.youtube.com/">this is an a tag</a></td>
+      </tr>
+      <tr class="col-99">
+          <td class="col-9">09</td>
+          <td>listing tag</td>
+          <td>Odarlist Unodar list</td>
+          <td>
+              <ul class="ul-2">
+                  <li>Home</li>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li>Blog</li>
+              </ul>
+              <ol class="ol-3">
+                  <li>Rana</li>
+                  <li>Nasim</li>
+                  <li>Rihad</li>
+                  <li>Ajmir</li>
+                  <li>Mojnu</li>
+                  <li>Mehedi</li>
+                  <p style="color: #fff; font-size: 20px">We Are Good friend</p>
+              </ol>
+          </td>
+      </tr>
+      <tr class="col-10">
+          <td class="col-10-1">10</td>
+          <td>button tag</td>
+          <td>tag defines a clickable button.</td>
+          <td class="button">
+              <button>Click Me</button>
+          </td>
+      </tr>
+      <tr class="col-11">
+          <td class="col-11-1">11</td>
+          <td>abbr tag</td>
+          <td>tag defines an abbreviation or an acronym,</td>
+          <td>
+              <p>Lorem ipsum dolor sit amet <abbr class="abbr" title="Facebook cinen na taile baicha ache kno....?">Facebook</abbr> consectetur adipisicing elit.</p>
+          </td>
+      </tr>
+      <tr class="col-12">
+          <td class="col-12-1">12</td>
+          <td> DOCTYPE tag</td>
+          <td>All HTML documents must start with a DOCTYPE declaration.</td>
+          <td>Defines a DOCTYPE type</td>
+      </tr>
+      <tr class="col-13">
+          <td class="col-13-1">13</td>
+          <td>br tag</td>
+          <td>line break</td>
+          <td>Specific a single line break</td>
+      </tr>
+      <tr class="col-14">
+          <td class="col-14-1">14</td>
+          <td>html tag</td>
+          <td>markup language</td>
+          <td class="html">HTML markup language</td>
+      </tr>
+      <tr class="col-15">
+          <td class="col-15-1">15</td>
+          <td>title tag</td>
+          <td>title for the document</td>
+          <td>Defines a title for the document</td>
+      </tr>
+      <tr class="col-16">
+          <td class="col-16-1">16</td>
+          <td>body tag</td>
+          <td>tag defines the document's body.</td>
+          <td> element contains all the contents of an HTML document.</td>
+      </tr>
+      <tr class="col-17">
+         <td class="col-17-1">17</td>
+         <td>header tag</td>
+         <td>element typically contains:</td>
+         <td>element represents a container for introductory content or a set of navigational links.</td> 
+      </tr>
+      <tr class="col-18">
+          <td class="col-18-1">18</td>
+          <td>iframe tag</td>
+          <td>An inline frame is marked up as follows:</td>
+          <td>tag specifies an inline frame.<br>
+              <iframe src="https://www.wix.com/" frameborder="0"></iframe>
+          </td>
+      </tr>
+      <tr class="col-19">
+          <td class="col-19-1">19</td>
+          <td>input tag</td>
+          <td>element is the most important form element.</td>
+          <td> tag specifies an input field where the user can enter data.<br>
+              <input type="text"  placeholder="Name">
+          </td>
+      </tr>
+      <tr class="col-20">
+          <td class="col-20-1">20</td>
+          <td>label tag</td>
+          <td>tag defines a label for several elements::</td>
+          <td>Three radio buttons with labels:<br>
+            <div class="input">
+                <label for="name">First Name</label>
+                <input type="text" id="name" placeholder="Name">
+             </div>
+          </td>
+      </tr>
+      <tr class="col-21">
+          <td class="col-21-1">21</td>
+          <td>main tag</td>
+          <td> tag specifies the main content of a document.</td>
+          <td>
+              <main>
+                  <h1>Main tag</h1>
+              </main>
+          </td>
+      </tr>
+      <tr class="col-22">
+          <td class="col-22-1">22</td>
+          <td class="meta">meta tag</td>
+          <td>Metadata is data information about data.</td>
+          <td>
+            <meta name="author" content="There is a method to let web designers take control over the viewport">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="UTF-8">
+          </td>
+      </tr>
+      <tr class="col-23">
+          <td class="col-23-1">23</td>
+          <td>option tag</td>
+          <td>tag defines an option in a select list.</td>
+          <td>
+              <select class="option">
+                  <option>Option Tag</option>
+                  <option>Oppo</option>
+                  <option>Samsung</option>
+                  <option>Iphone</option>
+                  <option>Infinix</option>
+                  <option>Sony</option>
+              </select>
+          </td>
+      </tr>
+      <tr class="col-24">
+          <td class="col-24-1">24</td>
+          <td>select tag</td>
+          <td>The select element is used to create a drop-down list.</td>
+          <td>
+            <select class="select">
+                <option>Select Tag</option>
+                 <option>Oppo</option>
+                  <option>Samsung</option>
+                  <option>Iphone</option>
+                  <option>Infinix</option>
+                  <option>Sony</option>
+            </select>
+          </td>
+      </tr>
+      <tr class="col-25">
+        <td class="col-25-1">25</td>
+        <td>span tag</td>
+        <td>tag is an inline container used to mark up a part of a text,</td>
+        <td>
+           <span class="span"> Lorem ipsum dolor,</span> sit amet consectetur adipisicing elit.
+        </td>
+      </tr>
+      <tr class="col-26">
+          <td class="col-26-1">26</td>
+          <td>head tag</td>
+          <td>simple html document, with a tag inside the head section</td>
+          <td>
+              <head>
+                  <title>This is my first class</title>
+              </head>
+          </td>
+      </tr>
+      <tr class="col-27">
+          <td class="col-27-1">27</td>
+          <td>del tag</td>
+          <td>line through deleted text.</td>
+          <td>
+              <del>kaj paren na taile muri khan</del>
+          </td>
+      </tr>
+      <tr class="col-28">
+          <td class="col-28-1">28</td>
+          <td>footer tag</td>
+          <td> tag defines a footer for a document or section.</td>
+          <td>
+              <footer class="footer">Copy Right |Footer tag</footer>
+          </td>
+      </tr>
+      <tr class="col-29">
+          <td class=" col-29-1">29</td>
+          <td>div tag</td>
+          <td> tag defines a division or a section in an html document</td>
+          <td>
+              <div class="div"><h1>This is heading 1 | div tag</h1></div>
+          </td>
+      </tr>
+      <tr class="col-30">
+          <td class="col-30-1">30</td>
+          <td>form tag</td>
+          <td>tag is used to create an htnl form for user input.</td>
+          <td>
+              <div class="form-tag">
+                    <form action="#">
+                        <table class="table-1">
+                            <tr class="label">
+                                <td><label for="first" class="first">First Name :</label></td>
+                                <td><input id="first" type="text" placeholder="First Name.."></td>
+                            </tr>
+                            <tr class="label">
+                                <td> <label for="last" class="first">Last Name :</label></td>
+                                <td><input id="last" type="text" placeholder="Last Name.."></td>
+                            </tr>
+                            <tr class="label">
+                                <td><label for="password" class="first">Password :</label></td>
+                                <td> <input id="password" type="password" placeholder="Your Password.."></td>
+                            </tr>
+                            <tr class="label">
+                                <td><label for="gf" class="first">Girlfriend's Name :</label></td>
+                                <td><input id="gf" type="text" placeholder="Girlfriend's Name.."></td>
+                            </tr>
+                            <tr class="submit">
+                                <td></td>
+                                <td> <input type="submit" value="Send" /></td>
+                            </tr>
+                            <tr class="radio">
+                                <td><label for="female" class="first"><input type="radio" id="female" name="gender" value="female"></label>Female</td>
+                                <td><label for="male" class="first"><input type="radio" id="male" name="gender" value="male"></label>Male</td>
+                            </tr>
+                    </table>
+             </div>
+        </form>
+          </td>
+      </tr>
+
+    </table>
+    <!-- table end -->
+</body>
+</html>
